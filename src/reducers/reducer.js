@@ -1,4 +1,4 @@
-import { ContentPasteSearchOutlined } from "@mui/icons-material";
+// import { ContentPasteSearchOutlined } from "@mui/icons-material";
 
 export const initialState = {
   basket: [],
@@ -15,6 +15,12 @@ const reducer = (state, action) => {
       return {
         ...state,
         basket: [...state.basket, action.item],
+      };
+
+    case "EMPTY_BASKET":
+      return {
+        ...state,
+        basket: [],
       };
 
     case "REMOVE_FROM_BASKET":
