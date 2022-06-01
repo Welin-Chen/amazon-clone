@@ -1,10 +1,11 @@
+# Demo/Site
+
+[amzaon-clone](https://challenge-5c0c2.web.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Demo/Site
-
-[amzaon-clone](https://challenge-5c0c2.web.app/)
 
 ## Available Scripts
 
